@@ -38,4 +38,3 @@
 0.0.0.0 hk.shein.com
 0.0.0.0 www.hk.shein.com
 0.0.0.0 www.ltwebstatic.com
-
