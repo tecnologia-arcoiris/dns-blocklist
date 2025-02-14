@@ -78,7 +78,36 @@ Salida (`pfblockerng_hosts_ipv4.txt`):
 
 ---
 
-## Autor
+# README: update_blocklist-pfblockerng_hosts_ipv4.sh
+
+## Descripción:
+`update_blocklist-pfblockerng_hosts_ipv4.sh` es un script que actualiza la lista de bloqueos IPv4 para pfBlockerNG copiando el archivo `pfblockerng_hosts_ipv4.txt` al destino configurado.
+
+## Uso:
+Asegúrate de que el archivo `pfblockerng_hosts_ipv4.txt` exista en el directorio actual.
+Asegúrate de que el script tenga permisos de ejecución:
+
+```bash
+chmod +x update_blocklist-pfblockerng_hosts_ipv4.sh
+```
+
+## Ejecuta el script:
+
+```bash
+./update_blocklist-pfblockerng_hosts_ipv4.sh
+```
+## Ejemplo de salida en la terminal:
+```
+[INFO] Iniciando la actualización de la lista de bloqueos IPv4...
+
+[✔] Archivo copiado con éxito.
+Origen: pfblockerng_hosts_ipv4.txt
+Destino: ../blocklist-pfblockerng_hosts_ipv4.txt
+
+[INFO] Proceso de actualización completado.
+```
+
+# Autor
 
 Armando Ferrer (gitgub: armando-ferrer) / Para: Arco Iris Laboratorio, C.A.  
 
@@ -86,6 +115,6 @@ Fecha de creación: 14/02/2025
 
 ---
 
-## Licencia
+# Licencia
 
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT). Puedes usarlo, modificarlo y distribuirlo libremente.
